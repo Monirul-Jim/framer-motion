@@ -6,7 +6,7 @@ const Lesson1 = () => {
         className="size-64 bg-indigo-500 rounded-lg"
         initial={{ rotate: 0 }}
         animate={{ rotate: 360 }}
-        transition={{ duration: 5 }}
+        transition={{ type: "spring", duration: 5 }}
       ></motion.div>
     </>
   );
